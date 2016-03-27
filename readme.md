@@ -16,6 +16,9 @@ The goal of this game is to make 10 moves before the other player. Player 1 uses
 
 # Planned Features
 
-  * Players select their icons and their keys
+  Players select:
+  --short course/longcourse
+  --icons
+  --keys
 
 # What changes would you make to your project if you continue to work on it? (bullet points)
