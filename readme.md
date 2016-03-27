@@ -20,5 +20,6 @@ The goal of this game is to make 10 moves before the other player. Player 1 uses
   --short course/longcourse
   --icons
   --keys
+  --visual features
 
 # What changes would you make to your project if you continue to work on it? (bullet points)

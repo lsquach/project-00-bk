@@ -17,18 +17,57 @@
 
 <body>
 	<div class="container">
-			<h1>Racing</h1>
-		<div class="well well-lg">
+		<h1>Racing</h1>
+		<form>
+			<div class="col-md-6">
+				<h2>Racer #1</h2>
+				<input type="radio" id="vehicle1-cycle" name="vehicle1" value="cycle"> &nbsp Motorcycle
+				<br>
+				<input type="radio" id="vehicle1-car" name="vehicle1" value="car"> &nbsp Car
+				<br>
+				<p></p>
+				<!-- <label>Select a Key&nbsp
+					<input type="text" id="#key1" placeholder="enter a key here">
+					<br>
+					<input id="change-key1" type="submit" class="btn btn-sm" value="Select Key">
+				</div>
+				</label> -->
 
+			</div>
+			<div class="col-md-6">
+				<h2>Racer #2</h2>
+				<input type="radio" name="vehicle2" id="vehicle2-cycle" value="cycle"> &nbsp Motorcycle
+				<br>
+				<input type="radio" name="vehicle2" id="vehicle2-car" value="car"> &nbsp Car
+				<br>
+				<p></p>
+				<!-- <label>Select a Key&nbsp
+					<input type="text" name="key2" placeholder="enter a key here">
+				</label> -->
+			</div>
+
+		</form>
+		<div class="col-md-12">
+			<div id="course-checkbox">
+				<p></p>
+				<input type="radio" class="test" name="course" value="Short Course"> &nbsp Short Course
+				<br>
+				<input type="radio" class="test" name="course" value="Long Course"> &nbsp Long Course
+			</div>
+		</div>
+		<div class="buffer">
+			<p></p>
+		</div>
+		<div class="well well-lg">
 			<div id="firstRaceTrack" class="col-md-12">
-				<img id="firstRacer"  class = "racer" src="ic_motorcycle_black_24dp_2x.png">
+				<img id="firstRacer" class="racer" src="">
 
 			</div>
 		</div>
 		<div class="well well-lg">
 
 			<div class="col-md-12">
-				<p id="secondRacer" class = "racer"><img src="ic_motorcycle_black_24dp_2x.png"></p>
+				<img id="secondRacer" class="racer" src="">
 
 			</div>
 		</div>
